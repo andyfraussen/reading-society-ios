@@ -1,13 +1,20 @@
 import Foundation
+import Networking
 import Security
 
-public protocol AuthTokenStore: AnyObject {
+public protocol AuthTokenStore: AnyObject, TokenProviding, Sendable {
     func readToken() -> String?
     func saveToken(_ token: String)
     func deleteToken()
 }
 
-public final class KeychainTokenStore: AuthTokenStore {
+public extension AuthTokenStore {
+    func token() async -> String? {
+        readToken()
+    }
+}
+
+public final class KeychainTokenStore: AuthTokenStore, TokenProviding, @unchecked Sendable {
     private let service = "com.andifrausen.readingsociety.auth"
     private let account = "sanctum-token"
 

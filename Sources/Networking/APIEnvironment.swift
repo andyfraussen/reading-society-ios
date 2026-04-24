@@ -8,6 +8,6 @@ public struct APIEnvironment: Equatable, Sendable {
     }
 
     public static let local = APIEnvironment(
-        baseURL: URL(string: "https://reading-society-api.ddev.site")!
+        baseURL: URL(string: "https://reading-society-api.ddev.site/api/v1")!
     )
 }

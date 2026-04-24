@@ -7,27 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A06AE0AFCE2CCD897E59DA /* SocietyDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFC8DD0075252BEEEF0CA0 /* SocietyDashboardView.swift */; };
 		025666178476E8B88461ADD9 /* AuthTokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F5E4AB5AA813CE01B43A13 /* AuthTokenStore.swift */; };
 		0257C1AD28089389217040F5 /* RSSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BB11687DEC516CA5C58C9 /* RSSpacing.swift */; };
+		049FD72E78B2E9D73F4C6BF2 /* Inter[opsz,wght].ttf in Resources */ = {isa = PBXBuildFile; fileRef = B341D74568C2CB4E28FC41A5 /* Inter[opsz,wght].ttf */; };
+		072132AB9D7817C352C3F614 /* SocietiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A5430EC0C6D9F9300AA694 /* SocietiesView.swift */; };
 		09B161726B2B5768AD54DAFD /* RSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763A4397E9AE7EBB04DC437 /* RSButton.swift */; };
 		104ED98327E1B34B3A4CD954 /* RSBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18F4A85C914B5DE2983457D /* RSBadge.swift */; };
 		1271F8907C627790A663BAA4 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF00E147814FB4C1C5B3E9B /* DesignSystem.framework */; };
 		16FF201F3DC580EC68D0AC39 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2AED2F31F8D69CC2C8FE0 /* APIClient.swift */; };
+		20CB86B52DE6EFAD633979F2 /* FeatureSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8921BC6FE05C3AB7B7C0A9 /* FeatureSupport.swift */; };
+		2FC87ED31A065A9FAB9CA035 /* SignedInRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBF26BBB8F34579A782A71 /* SignedInRootView.swift */; };
 		416491E10A0643C7BA7AD242 /* ReadingSocietyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6E10235A6240455E5F84CC /* ReadingSocietyApp.swift */; };
+		49116F5F664ED534F3D25DAA /* RSSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E49166E6EC38CB58E4EB32 /* RSSecureField.swift */; };
+		4B016CA58F57BAEF2B1FDA40 /* ReadingSocietyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B6D5FD47F1F1FA8E7730F /* ReadingSocietyAPI.swift */; };
 		4E33F2526C32E25BB7C9190B /* RSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCFBCF843EE8ED36596636 /* RSColor.swift */; };
+		58BA661943A4C330A465AF01 /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B5064D6890572331061F80 /* APIRequests.swift */; };
+		5E1534F0A6B5B06EA460E441 /* SocietyLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAEA999A47495C53CA66798 /* SocietyLibraryView.swift */; };
 		614B1A6E978629E09E299AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A014A597DE65B528386E559 /* Assets.xcassets */; };
+		74D7A65362CD71D2768B12EE /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ECDEA9E9558BAFAB371CD5 /* APIModels.swift */; };
 		7EE3BEEB84158B732D7D94BA /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50038214E02D8204CEC130F4 /* APIEnvironment.swift */; };
 		902FB001B988FD9A62BEC84C /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1292729F69D6AC61031893EC /* SessionStore.swift */; };
 		9861CC532654B5CF824130C4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CCB3777C502D76AB307AB /* HomeView.swift */; };
 		9CF7B79D0106AE0EF5910014 /* RSTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CF2B0DAD7C5F04D440956 /* RSTypography.swift */; };
 		A36391FAAAB5BBD3D80D5ABD /* DesignSystemSmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C2128E7B49E813E7DEEF18 /* DesignSystemSmokeTests.swift */; };
 		A4BC0B6E673FFE693633493E /* AppShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC1D56FC3EEB7C0283D751 /* AppShell.framework */; };
+		ABD8836A65D9E371BD228DC2 /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1345C75F1AB7984A0B5105 /* IBMPlexMono-Regular.ttf */; };
+		C0F47091465B46EBDD83F196 /* BookRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8895147EB67276E1F18F6E /* BookRoomView.swift */; };
+		D362770B709167B5C71E13B2 /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C1E97093820EA71466C89AF /* IBMPlexMono-Medium.ttf */; };
+		DD49612AE40A474CEDA0CFE6 /* CormorantGaramond[wght].ttf in Resources */ = {isa = PBXBuildFile; fileRef = 176B35313AD222E1A94B952F /* CormorantGaramond[wght].ttf */; };
 		DDB6E2B6FAAB5A7A0D6DC650 /* RSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AEDAE5FDB4531425BE1FF /* RSTextField.swift */; };
 		E3C29CA0C29797E182790494 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22396A96D560CAB3CAC5FEA9 /* AppRootView.swift */; };
 		EC8326C4915A64DDB7641FF5 /* RSCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626D1E482DBE79DE43F747E9 /* RSCard.swift */; };
+		FDD8C5CCE3B6786C707AADD7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFC67AE8EBA9477AA6A037 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		04EF079D52F652C8C85E0072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BB600FA1FF5963AE267E46F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0344653648E67492464D0FC;
+			remoteInfo = Networking;
+		};
 		1A3E13A89726528AF9D43086 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9BB600FA1FF5963AE267E46F /* Project object */;
@@ -97,24 +119,39 @@
 		06780265B7FB9EDA434BE48A /* ReadingSociety.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ReadingSociety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0763A4397E9AE7EBB04DC437 /* RSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSButton.swift; sourceTree = "<group>"; };
 		1292729F69D6AC61031893EC /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		176B35313AD222E1A94B952F /* CormorantGaramond[wght].ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CormorantGaramond[wght].ttf"; sourceTree = "<group>"; };
+		1B8921BC6FE05C3AB7B7C0A9 /* FeatureSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSupport.swift; sourceTree = "<group>"; };
 		1D0BB11687DEC516CA5C58C9 /* RSSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSpacing.swift; sourceTree = "<group>"; };
+		1EBBF26BBB8F34579A782A71 /* SignedInRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedInRootView.swift; sourceTree = "<group>"; };
 		22396A96D560CAB3CAC5FEA9 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		23A5430EC0C6D9F9300AA694 /* SocietiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocietiesView.swift; sourceTree = "<group>"; };
 		23C2128E7B49E813E7DEEF18 /* DesignSystemSmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemSmokeTests.swift; sourceTree = "<group>"; };
 		2CF2AED2F31F8D69CC2C8FE0 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		3A1345C75F1AB7984A0B5105 /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; };
+		40ECDEA9E9558BAFAB371CD5 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		48B5064D6890572331061F80 /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
 		50038214E02D8204CEC130F4 /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
 		5EE030E93C1D053607CC747B /* Authentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Authentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BFC8DD0075252BEEEF0CA0 /* SocietyDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocietyDashboardView.swift; sourceTree = "<group>"; };
 		61F5E4AB5AA813CE01B43A13 /* AuthTokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTokenStore.swift; sourceTree = "<group>"; };
 		626D1E482DBE79DE43F747E9 /* RSCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCard.swift; sourceTree = "<group>"; };
 		6D8CCB3777C502D76AB307AB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7A014A597DE65B528386E559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3CF2B0DAD7C5F04D440956 /* RSTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTypography.swift; sourceTree = "<group>"; };
+		7FAEA999A47495C53CA66798 /* SocietyLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocietyLibraryView.swift; sourceTree = "<group>"; };
 		81AC1D56FC3EEB7C0283D751 /* AppShell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppShell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82667FEC54CEDF020F23EB23 /* Features.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Features.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FCFBCF843EE8ED36596636 /* RSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSColor.swift; sourceTree = "<group>"; };
+		87E49166E6EC38CB58E4EB32 /* RSSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSecureField.swift; sourceTree = "<group>"; };
+		8C1E97093820EA71466C89AF /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
+		8D8895147EB67276E1F18F6E /* BookRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRoomView.swift; sourceTree = "<group>"; };
+		90DFC67AE8EBA9477AA6A037 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		A10AEDAE5FDB4531425BE1FF /* RSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTextField.swift; sourceTree = "<group>"; };
 		AF6E10235A6240455E5F84CC /* ReadingSocietyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingSocietyApp.swift; sourceTree = "<group>"; };
 		AFF00E147814FB4C1C5B3E9B /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B341D74568C2CB4E28FC41A5 /* Inter[opsz,wght].ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter[opsz,wght].ttf"; sourceTree = "<group>"; };
 		C18F4A85C914B5DE2983457D /* RSBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSBadge.swift; sourceTree = "<group>"; };
+		C44B6D5FD47F1F1FA8E7730F /* ReadingSocietyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingSocietyAPI.swift; sourceTree = "<group>"; };
 		D1F651E621604F3C0C8F1E1C /* ReadingSocietyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ReadingSocietyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00828E2D0E1566D3E374F02 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -142,7 +179,12 @@
 		011ABE39BDCC1A6E6ECDE57D /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				1EBBF26BBB8F34579A782A71 /* SignedInRootView.swift */,
+				B0932916C2B6B7E6DBC610E6 /* Books */,
 				361E56E2E35D59B99CD6E7CF /* Home */,
+				CD5DE5D64773BFEEA438E034 /* Library */,
+				48C5A8CD30B4538C373BDDCA /* Shared */,
+				F181C880B069F2768473747C /* Societies */,
 			);
 			name = Features;
 			path = Sources/Features;
@@ -164,6 +206,7 @@
 				0763A4397E9AE7EBB04DC437 /* RSButton.swift */,
 				626D1E482DBE79DE43F747E9 /* RSCard.swift */,
 				82FCFBCF843EE8ED36596636 /* RSColor.swift */,
+				87E49166E6EC38CB58E4EB32 /* RSSecureField.swift */,
 				1D0BB11687DEC516CA5C58C9 /* RSSpacing.swift */,
 				A10AEDAE5FDB4531425BE1FF /* RSTextField.swift */,
 				7A3CF2B0DAD7C5F04D440956 /* RSTypography.swift */,
@@ -184,6 +227,7 @@
 		31F3A85E72E261D12DD0546B /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				90DFC67AE8EBA9477AA6A037 /* AuthService.swift */,
 				61F5E4AB5AA813CE01B43A13 /* AuthTokenStore.swift */,
 				1292729F69D6AC61031893EC /* SessionStore.swift */,
 			);
@@ -223,6 +267,14 @@
 			path = Tests/ReadingSocietyTests;
 			sourceTree = "<group>";
 		};
+		48C5A8CD30B4538C373BDDCA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1B8921BC6FE05C3AB7B7C0A9 /* FeatureSupport.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		6693371DD5B20B0BB0BA4357 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,18 +294,58 @@
 			children = (
 				2CF2AED2F31F8D69CC2C8FE0 /* APIClient.swift */,
 				50038214E02D8204CEC130F4 /* APIEnvironment.swift */,
+				40ECDEA9E9558BAFAB371CD5 /* APIModels.swift */,
+				48B5064D6890572331061F80 /* APIRequests.swift */,
+				C44B6D5FD47F1F1FA8E7730F /* ReadingSocietyAPI.swift */,
 			);
 			name = Networking;
 			path = Sources/Networking;
+			sourceTree = "<group>";
+		};
+		966F1BBCDE8204F7912E4641 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				176B35313AD222E1A94B952F /* CormorantGaramond[wght].ttf */,
+				8C1E97093820EA71466C89AF /* IBMPlexMono-Medium.ttf */,
+				3A1345C75F1AB7984A0B5105 /* IBMPlexMono-Regular.ttf */,
+				B341D74568C2CB4E28FC41A5 /* Inter[opsz,wght].ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B0932916C2B6B7E6DBC610E6 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				8D8895147EB67276E1F18F6E /* BookRoomView.swift */,
+			);
+			path = Books;
 			sourceTree = "<group>";
 		};
 		C7877D487CEF1B233F349367 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				7A014A597DE65B528386E559 /* Assets.xcassets */,
+				966F1BBCDE8204F7912E4641 /* Fonts */,
 			);
 			name = Resources;
 			path = Sources/Resources;
+			sourceTree = "<group>";
+		};
+		CD5DE5D64773BFEEA438E034 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				7FAEA999A47495C53CA66798 /* SocietyLibraryView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		F181C880B069F2768473747C /* Societies */ = {
+			isa = PBXGroup;
+			children = (
+				23A5430EC0C6D9F9300AA694 /* SocietiesView.swift */,
+				60BFC8DD0075252BEEEF0CA0 /* SocietyDashboardView.swift */,
+			);
+			path = Societies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,6 +457,7 @@
 				7DD696E062C8EEC8BB109BB1 /* PBXTargetDependency */,
 				CB089111E02FB7F3A2249B9A /* PBXTargetDependency */,
 				7BEBE4126D808DB8BBFC76F4 /* PBXTargetDependency */,
+				88ED52039DF3D93F1612A80F /* PBXTargetDependency */,
 			);
 			name = AppShell;
 			packageProductDependencies = (
@@ -453,6 +546,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				614B1A6E978629E09E299AD1 /* Assets.xcassets in Resources */,
+				DD49612AE40A474CEDA0CFE6 /* CormorantGaramond[wght].ttf in Resources */,
+				D362770B709167B5C71E13B2 /* IBMPlexMono-Medium.ttf in Resources */,
+				ABD8836A65D9E371BD228DC2 /* IBMPlexMono-Regular.ttf in Resources */,
+				049FD72E78B2E9D73F4C6BF2 /* Inter[opsz,wght].ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +562,9 @@
 			files = (
 				16FF201F3DC580EC68D0AC39 /* APIClient.swift in Sources */,
 				7EE3BEEB84158B732D7D94BA /* APIEnvironment.swift in Sources */,
+				74D7A65362CD71D2768B12EE /* APIModels.swift in Sources */,
+				58BA661943A4C330A465AF01 /* APIRequests.swift in Sources */,
+				4B016CA58F57BAEF2B1FDA40 /* ReadingSocietyAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +588,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F47091465B46EBDD83F196 /* BookRoomView.swift in Sources */,
+				20CB86B52DE6EFAD633979F2 /* FeatureSupport.swift in Sources */,
 				9861CC532654B5CF824130C4 /* HomeView.swift in Sources */,
+				2FC87ED31A065A9FAB9CA035 /* SignedInRootView.swift in Sources */,
+				072132AB9D7817C352C3F614 /* SocietiesView.swift in Sources */,
+				01A06AE0AFCE2CCD897E59DA /* SocietyDashboardView.swift in Sources */,
+				5E1534F0A6B5B06EA460E441 /* SocietyLibraryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +614,7 @@
 				09B161726B2B5768AD54DAFD /* RSButton.swift in Sources */,
 				EC8326C4915A64DDB7641FF5 /* RSCard.swift in Sources */,
 				4E33F2526C32E25BB7C9190B /* RSColor.swift in Sources */,
+				49116F5F664ED534F3D25DAA /* RSSecureField.swift in Sources */,
 				0257C1AD28089389217040F5 /* RSSpacing.swift in Sources */,
 				DDB6E2B6FAAB5A7A0D6DC650 /* RSTextField.swift in Sources */,
 				9CF7B79D0106AE0EF5910014 /* RSTypography.swift in Sources */,
@@ -518,6 +625,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD8C5CCE3B6786C707AADD7 /* AuthService.swift in Sources */,
 				025666178476E8B88461ADD9 /* AuthTokenStore.swift in Sources */,
 				902FB001B988FD9A62BEC84C /* SessionStore.swift in Sources */,
 			);
@@ -560,6 +668,11 @@
 			isa = PBXTargetDependency;
 			target = 40C89B3C84006BA466E00CFA /* ReadingSociety */;
 			targetProxy = F5DEC9930D9AAEE58749A1AC /* PBXContainerItemProxy */;
+		};
+		88ED52039DF3D93F1612A80F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0344653648E67492464D0FC /* Networking */;
+			targetProxy = 04EF079D52F652C8C85E0072 /* PBXContainerItemProxy */;
 		};
 		953EC86F589E40A6199BF868 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -787,7 +900,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				MARKETING_VERSION = 0.1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -977,7 +1090,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				MARKETING_VERSION = 0.1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
